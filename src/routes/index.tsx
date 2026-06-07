@@ -226,7 +226,7 @@ function HomePage() {
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
               </svg>
             </div>
-            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', letterSpacing: '0.1em', color: 'var(--text-primary)' }}>FORTIS</span>
+            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', letterSpacing: '0.1em', color: 'var(--text-primary)' }}>CCTV DEL SUR</span>
             <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.6rem', color: 'var(--text-muted)', letterSpacing: '0.1em', marginTop: '2px' }} className="hide-mobile">SISTEMAS DE SEGURIDAD</span>
           </div>
 
@@ -322,7 +322,7 @@ function HomePage() {
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                     <div className="live-dot" />
                     <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.65rem', color: 'var(--text-secondary)', letterSpacing: '0.12em', textTransform: 'uppercase' }}>
-                      FORTIS — Panel de control
+                      CCTV del Sur — Panel de control
                     </span>
                   </div>
                   <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.65rem', color: 'var(--accent)', letterSpacing: '0.1em' }}>
@@ -630,9 +630,9 @@ function HomePage() {
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                 {[
-                  { icon: <IconPhone />, label: 'Teléfono', val: '+57 (601) 743-8291' },
-                  { icon: <IconMail />, label: 'Correo electrónico', val: 'comercial@fortis.com.co' },
-                  { icon: <IconMapPin />, label: 'Cobertura', val: 'Bogotá · Medellín · Cali · Barranquilla' },
+                  { icon: <IconPhone />, label: 'Teléfono', val: '+52 5580043470' },
+                  { icon: <IconMail />, label: 'Correo electrónico', val: 'contacto@cctvdelsur.mx' },
+                  { icon: <IconMapPin />, label: 'Cobertura', val: 'México · Ciudad de México · Todos los estados de la republica' },
                 ].map(item => (
                   <div key={item.label} style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
                     <div className="icon-hex" style={{ color: 'var(--accent)', width: '40px', height: '40px' }}>{item.icon}</div>
@@ -650,7 +650,7 @@ function HomePage() {
                 <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.65rem', color: 'var(--accent)', letterSpacing: '0.18em', textTransform: 'uppercase', marginBottom: '0.75rem' }}>Horario de atención</div>
                 <div style={{ color: 'var(--text-secondary)', fontSize: '0.875rem', lineHeight: 1.8 }}>
                   Lunes — Viernes: 7:00 am — 6:00 pm<br />
-                  Sábados: 8:00 am — 1:00 pm<br />
+                  Sábados: 10:00 am — 17:00 pm<br />
                   <span style={{ color: 'var(--accent)', fontFamily: 'var(--font-mono)', fontSize: '0.75rem' }}>Soporte técnico: 24/7</span>
                 </div>
               </div>
@@ -769,7 +769,7 @@ function HomePage() {
                 <div style={{ width: '28px', height: '28px', background: 'var(--accent)', clipPath: 'polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 0 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="#07070d"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                 </div>
-                <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.4rem', letterSpacing: '0.1em' }}>FORTIS</span>
+                <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.4rem', letterSpacing: '0.1em' }}>CCTV DEL SUR</span>
               </div>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', lineHeight: 1.7, maxWidth: '260px' }}>
                 Sistemas integrales de seguridad electrónica para empresas, industrias e instituciones desde 2010.
@@ -802,7 +802,7 @@ function HomePage() {
 
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
             <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.65rem', color: 'var(--text-muted)', letterSpacing: '0.1em' }}>
-              © 2025 FORTIS SISTEMAS DE SEGURIDAD S.A.S. — Todos los derechos reservados.
+              © 2025 CCTV DEL SUR  — Todos los derechos reservados.
             </span>
             <div style={{ display: 'flex', gap: '1.5rem' }}>
               {['Política de privacidad', 'Términos de servicio'].map(link => (
