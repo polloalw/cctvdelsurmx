@@ -173,7 +173,7 @@ const storagePlans = [
     price: '$89.900',
     currency: 'COP/mes',
     features: ['Grabación continua 30 días', 'Acceso remoto 24/7', 'Encriptación AES-256', 'Usuarios ilimitados'],
-    paymentUrl: '#LINK_PAGO_200GB',
+    paymentUrl: 'https://www.mercadopago.com.mx/subscriptions/checkout?preapproval_plan_id=528ded995dc3416aa9ea8eebbb9559a5',
     tag: 'STR-200',
   },
 ]
