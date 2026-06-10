@@ -145,7 +145,7 @@ const storagePlans = [
     price: '$29.900',
     currency: 'COP/mes',
     features: ['Grabación continua 7 días', 'Acceso remoto 24/7', 'Encriptación AES-256', '1 usuario incluido'],
-    paymentUrl: '#LINK_PAGO_50GB',
+    paymentUrl: 'https://www.mercadopago.com.mx/subscriptions/checkout?preapproval_plan_id=72fbbc63f23a40b9944abdeed681f9ad',
     tag: 'STR-050',
   },
   {
@@ -154,7 +154,7 @@ const storagePlans = [
     price: '$49.900',
     currency: 'COP/mes',
     features: ['Grabación continua 15 días', 'Acceso remoto 24/7', 'Encriptación AES-256', '3 usuarios incluidos'],
-    paymentUrl: '#LINK_PAGO_100GB',
+    paymentUrl: 'https://www.mercadopago.com.mx/subscriptions/checkout?preapproval_plan_id=72fbbc63f23a40b9944abdeed681f9ad',
     tag: 'STR-100',
     popular: true,
   },
@@ -164,7 +164,7 @@ const storagePlans = [
     price: '$69.900',
     currency: 'COP/mes',
     features: ['Grabación continua 25 días', 'Acceso remoto 24/7', 'Encriptación AES-256', '5 usuarios incluidos'],
-    paymentUrl: '#LINK_PAGO_150GB',
+    paymentUrl: 'https://www.mercadopago.com.mx/subscriptions/checkout?preapproval_plan_id=018f13282f764168a243d8154dc59ac7',
     tag: 'STR-150',
   },
   {
@@ -173,7 +173,7 @@ const storagePlans = [
     price: '$89.900',
     currency: 'COP/mes',
     features: ['Grabación continua 30 días', 'Acceso remoto 24/7', 'Encriptación AES-256', 'Usuarios ilimitados'],
-    paymentUrl: '#LINK_PAGO_200GB',
+    paymentUrl: 'https://www.mercadopago.com.mx/subscriptions/checkout?preapproval_plan_id=528ded995dc3416aa9ea8eebbb9559a5',
     tag: 'STR-200',
   },
 ]
