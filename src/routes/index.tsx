@@ -142,7 +142,7 @@ const storagePlans = [
   {
     capacity: '50',
     unit: 'GB',
-    price: '$29.900',
+    price: '$295.80',
     currency: 'COP/mes',
     features: ['Grabación continua 7 días', 'Acceso remoto 24/7', 'Encriptación AES-256', '1 usuario incluido'],
     paymentUrl: 'https://www.mercadopago.com.mx/subscriptions/checkout?preapproval_plan_id=72fbbc63f23a40b9944abdeed681f9ad',
@@ -151,7 +151,7 @@ const storagePlans = [
   {
     capacity: '100',
     unit: 'GB',
-    price: '$49.900',
+    price: '$510.40',
     currency: 'COP/mes',
     features: ['Grabación continua 15 días', 'Acceso remoto 24/7', 'Encriptación AES-256', '3 usuarios incluidos'],
     paymentUrl: 'https://www.mercadopago.com.mx/subscriptions/checkout?preapproval_plan_id=72fbbc63f23a40b9944abdeed681f9ad',
@@ -161,7 +161,7 @@ const storagePlans = [
   {
     capacity: '150',
     unit: 'GB',
-    price: '$69.900',
+    price: '$1,100.00',
     currency: 'COP/mes',
     features: ['Grabación continua 25 días', 'Acceso remoto 24/7', 'Encriptación AES-256', '5 usuarios incluidos'],
     paymentUrl: 'https://www.mercadopago.com.mx/subscriptions/checkout?preapproval_plan_id=018f13282f764168a243d8154dc59ac7',
