@@ -649,9 +649,9 @@ return (
       </section>
 
       {/* ── CONTACT FORM ────────────────────────────────────────── */}
-      <section id="contacto" style={{ padding: '7rem 2rem' }}>
+      <section id="contacto" style={{ padding: '4rem 1rem' }}>
         <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '5rem', alignItems: 'flex-start' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '2.5rem', alignItems: 'flex-start' }}>
 
             {/* Left: info */}
             <div>
