@@ -196,15 +196,33 @@ function HomePage() {
     servicio: '',
     mensaje: '',
   })
+
   const [submitted, setSubmitted] = useState(false)
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
+
+    const mensaje = `
+Nuevo contacto:
+
+Nombre: ${formData.nombre}
+Empresa: ${formData.empresa}
+Teléfono: ${formData.telefono}
+Servicio: ${formData.servicio}
+Mensaje: ${formData.mensaje}
+    `
+
+    const telefonoWhatsApp = "5215580043470"
+
+    const url = `https://wa.me/${telefonoWhatsApp}?text=${encodeURIComponent(mensaje)}`
+
+    window.open(url, "_blank")
+
     setSubmitted(true)
   }
-
-  return (
-    <div style={{ background: 'var(--bg-base)', minHeight: '100vh' }}>
+return (
+  <div style={{ background: 'var(--bg-base)', minHeight: '100vh' }}>
+  
 
       {/* ── NAV ─────────────────────────────────────────────────── */}
       <nav style={{
