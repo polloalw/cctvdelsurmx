@@ -251,21 +251,18 @@ return (
     display: 'block',
   }}
 />
-          {/* Logo */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <div style={{
-              width: '32px', height: '32px',
-              background: 'var(--accent)',
-              clipPath: 'polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%)',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-            }}>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="#07070d" stroke="none">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-              </svg>
-            </div>
-            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', letterSpacing: '0.1em', color: 'var(--text-primary)' }}>CCTV DEL SUR</span>
-            <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.6rem', color: 'var(--text-muted)', letterSpacing: '0.1em', marginTop: '2px' }} className="hide-mobile">SISTEMAS DE SEGURIDAD</span>
-          </div>
+     {/* Logo */}
+<div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+  <img
+    src="/logocctvdelsur.png"
+    alt="CCTV del Sur"
+    style={{
+      height: '50px',
+      width: 'auto',
+      display: 'block',
+    }}
+  />
+</div>
 
           {/* Nav links */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '2.5rem' }} className="hide-mobile">
