@@ -233,9 +233,8 @@ Mensaje: ${formData.mensaje}
 return (
   <div style={{ background: 'var(--bg-base)', minHeight: '100vh' }}>
   
-
-      {/* ── NAV ─────────────────────────────────────────────────── */}
-     <nav style={{
+{/* ── NAV ─────────────────────────────────────────────────── */}
+<nav style={{
   position: 'fixed',
   top: 0,
   left: 0,
@@ -257,26 +256,76 @@ return (
 
     {/* Logo */}
     <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+      <img
+        src="/logocctvdelsur.png"
+        alt="CCTV del Sur"
+        style={{
+          height: '50px',
+          width: 'auto',
+          display: 'block',
+        }}
+      />
 
+      <span
+        style={{
+          fontFamily: 'var(--font-display)',
+          fontSize: '1.5rem',
+          letterSpacing: '0.1em',
+          color: 'var(--text-primary)',
+        }}
+      >
+        CCTV DEL SUR
+      </span>
+
+      <span
+        className="hide-mobile"
+        style={{
+          fontFamily: 'var(--font-mono)',
+          fontSize: '0.6rem',
+          color: 'var(--text-muted)',
+          letterSpacing: '0.1em',
+          marginTop: '2px',
+        }}
+      >
+        SISTEMAS DE SEGURIDAD
+      </span>
     </div>
-          {/* Nav links */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '2.5rem' }} className="hide-mobile">
-            {['Servicios', 'Almacenamiento', 'Nosotros', 'Contacto'].map(link => (
-              <a key={link} href={`#${link.toLowerCase()}`} className="nav-link"
-                style={{ fontFamily: 'var(--font-body)', color: 'var(--text-secondary)', textDecoration: 'none', fontSize: '0.82rem', letterSpacing: '0.06em', textTransform: 'uppercase', fontWeight: 500 }}
-                onMouseEnter={e => (e.currentTarget.style.color = 'var(--text-primary)')}
-                onMouseLeave={e => (e.currentTarget.style.color = 'var(--text-secondary)')}>
-                {link}
-              </a>
-            ))}
-          </div>
 
-          <a href="#contacto" className="btn-primary" style={{ fontSize: '0.75rem', padding: '0.65rem 1.25rem' }}>
-            Cotizar ahora
-          </a>
-        </div>
-      </nav>
+    {/* Nav links */}
+    <div
+      style={{ display: 'flex', alignItems: 'center', gap: '2.5rem' }}
+      className="hide-mobile"
+    >
+      {['Servicios', 'Almacenamiento', 'Nosotros', 'Contacto'].map(link => (
+        <a
+          key={link}
+          href={`#${link.toLowerCase()}`}
+          className="nav-link"
+          style={{
+            fontFamily: 'var(--font-body)',
+            color: 'var(--text-secondary)',
+            textDecoration: 'none',
+            fontSize: '0.82rem',
+            letterSpacing: '0.06em',
+            textTransform: 'uppercase',
+            fontWeight: 500,
+          }}
+        >
+          {link}
+        </a>
+      ))}
+    </div>
 
+    <a
+      href="#contacto"
+      className="btn-primary"
+      style={{ fontSize: '0.75rem', padding: '0.65rem 1.25rem' }}
+    >
+      Cotizar ahora
+    </a>
+
+  </div>
+</nav>
       {/* ── HERO ────────────────────────────────────────────────── */}
       <section className="grid-bg scanlines" style={{
         position: 'relative',
