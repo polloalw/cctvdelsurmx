@@ -241,7 +241,16 @@ return (
         backdropFilter: 'blur(16px)',
         borderBottom: '1px solid var(--border)',
       }}>
-        <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 2rem', height: '64px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <img
+  src="/logocctvdelsur.png"
+  alt="CCTV del Sur"
+  style={{
+    width: '38px',
+    height: '38px',
+    objectFit: 'contain',
+    display: 'block',
+  }}
+/>
           {/* Logo */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
             <div style={{
