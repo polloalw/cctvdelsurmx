@@ -241,12 +241,12 @@ return (
         backdropFilter: 'blur(16px)',
         borderBottom: '1px solid var(--border)',
       }}>
-        <img
+       <img
   src="/logocctvdelsur.png"
   alt="CCTV del Sur"
   style={{
-    width: '38px',
-    height: '38px',
+    width: '36px',
+    height: '36px',
     objectFit: 'contain',
     display: 'block',
   }}
