@@ -290,7 +290,7 @@ return (
         <div style={{ position: 'absolute', bottom: '10%', left: '20%', width: '300px', height: '300px', borderRadius: '50%', background: 'radial-gradient(circle, rgba(192,57,43,0.05) 0%, transparent 70%)', pointerEvents: 'none' }} />
 
         <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '4rem 2rem', width: '100%', position: 'relative', zIndex: 3 }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '4rem', alignItems: 'center' }}>
 
             {/* Left: copy */}
             <div>
@@ -431,7 +431,7 @@ return (
       {/* ── STATS BAR ───────────────────────────────────────────── */}
       <div style={{ background: 'var(--bg-surface)', borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)' }}>
         <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 2rem' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr' }}>
             {stats.map((stat, i) => (
               <div key={i} style={{
                 padding: '2rem 1.5rem',
@@ -504,7 +504,7 @@ return (
       {/* ── WHY FORTIS ──────────────────────────────────────────── */}
       <section id="nosotros" style={{ padding: '7rem 2rem', background: 'var(--bg-surface)', borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)' }}>
         <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.4fr', gap: '5rem', alignItems: 'flex-start' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '5rem', alignItems: 'flex-start' }}>
 
             <div style={{ position: 'sticky', top: '5rem' }}>
               <div className="section-tag" style={{ marginBottom: '1.25rem' }}>Por qué elegimos Fortis</div>
@@ -585,7 +585,7 @@ return (
             </p>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr)', gap: '1rem' }}>
             {storagePlans.map((plan) => (
               <div key={plan.tag} className={`pricing-card ${plan.popular ? 'pricing-popular' : ''}`}>
                 {plan.popular && (
@@ -651,7 +651,7 @@ return (
       {/* ── CONTACT FORM ────────────────────────────────────────── */}
       <section id="contacto" style={{ padding: '7rem 2rem' }}>
         <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.2fr', gap: '5rem', alignItems: 'flex-start' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '5rem', alignItems: 'flex-start' }}>
 
             {/* Left: info */}
             <div>
@@ -797,7 +797,7 @@ return (
         padding: '3rem 2rem 2rem',
       }}>
         <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1fr', gap: '3rem', marginBottom: '3rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '3rem', marginBottom: '3rem' }}>
 
             {/* Brand */}
             <div>
