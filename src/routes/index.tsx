@@ -235,35 +235,30 @@ return (
   
 
       {/* ── NAV ─────────────────────────────────────────────────── */}
-      <nav style={{
-        position: 'fixed', top: 0, left: 0, right: 0, zIndex: 100,
-        background: 'rgba(7,7,13,0.88)',
-        backdropFilter: 'blur(16px)',
-        borderBottom: '1px solid var(--border)',
-      }}>
-       <img
-  src="/logocctvdelsur.png"
-  alt="CCTV del Sur"
-  style={{
-    width: '36px',
-    height: '36px',
-    objectFit: 'contain',
-    display: 'block',
-  }}
-/>
-     {/* Logo */}
-<div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-  <img
-    src="/logocctvdelsur.png"
-    alt="CCTV del Sur"
-    style={{
-      height: '50px',
-      width: 'auto',
-      display: 'block',
-    }}
-  />
-</div>
+     <nav style={{
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  right: 0,
+  zIndex: 100,
+  background: 'rgba(7,7,13,0.88)',
+  backdropFilter: 'blur(16px)',
+  borderBottom: '1px solid var(--border)',
+}}>
+  <div style={{
+    maxWidth: '1280px',
+    margin: '0 auto',
+    padding: '0 2rem',
+    height: '64px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between'
+  }}>
 
+    {/* Logo */}
+    <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+
+    </div>
           {/* Nav links */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '2.5rem' }} className="hide-mobile">
             {['Servicios', 'Almacenamiento', 'Nosotros', 'Contacto'].map(link => (
