@@ -462,7 +462,15 @@ return (
             </div>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1px', background: 'var(--border)' }}>
+          <div
+  style={{
+    display: 'grid',
+    gridTemplateColumns: '1fr',
+    gap: '1px',
+    background: 'var(--border)',
+  }}
+  className="md:grid-cols-2"
+>
             {services.map((svc) => (
               <div key={svc.id} className="service-card" style={{ padding: '2.5rem' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1.5rem' }}>
