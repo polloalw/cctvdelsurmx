@@ -209,10 +209,10 @@ function HomePage() {
 
   const [submitted, setSubmitted] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault()
 
-    const mensaje = `
+  const mensaje = `
 Nuevo contacto:
 
 Nombre: ${formData.nombre}
@@ -220,16 +220,28 @@ Empresa: ${formData.empresa}
 Teléfono: ${formData.telefono}
 Servicio: ${formData.servicio}
 Mensaje: ${formData.mensaje}
-    `
+  `
 
-    const telefonoWhatsApp = "5215580043470"
-
-    const url = `https://wa.me/${telefonoWhatsApp}?text=${encodeURIComponent(mensaje)}`
-
-    window.open(url, "_blank")
-
-    setSubmitted(true)
+  try {
+    await fetch('/.netlify/functions/send-email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    })
+  } catch (error) {
+    console.error('Error enviando correo:', error)
   }
+
+  const telefonoWhatsApp = "5215580043470"
+
+  const url = `https://wa.me/${telefonoWhatsApp}?text=${encodeURIComponent(mensaje)}`
+
+  window.open(url, "_blank")
+
+  setSubmitted(true)
+}
 return (
   <div style={{ background: 'var(--bg-base)', minHeight: '100vh' }}>
   
