@@ -301,7 +301,7 @@ return (
   ['Almacenamiento', '#almacenamiento'],
   ['Nosotros', '#nosotros'],
   ['Contacto', '#contacto'],
-  ['Cotizador', '/cotizador'],
+
 ].map(([texto, enlace]) => (
   <a
     key={texto}
