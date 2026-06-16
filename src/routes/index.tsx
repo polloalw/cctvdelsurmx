@@ -296,33 +296,39 @@ return (
       style={{ display: 'flex', alignItems: 'center', gap: '2.5rem' }}
       className="hide-mobile"
     >
-      {['Servicios', 'Almacenamiento', 'Nosotros', 'Contacto'].map(link => (
-        <a
-          key={link}
-          href={`#${link.toLowerCase()}`}
-          className="nav-link"
-          style={{
-            fontFamily: 'var(--font-body)',
-            color: 'var(--text-secondary)',
-            textDecoration: 'none',
-            fontSize: '0.82rem',
-            letterSpacing: '0.06em',
-            textTransform: 'uppercase',
-            fontWeight: 500,
-          }}
-        >
-          {link}
-        </a>
-      ))}
+{[
+  ['Servicios', '#servicios'],
+  ['Almacenamiento', '#almacenamiento'],
+  ['Nosotros', '#nosotros'],
+  ['Contacto', '#contacto'],
+  ['Cotizador', '/cotizador'],
+].map(([texto, enlace]) => (
+  <a
+    key={texto}
+    href={enlace}
+    className="nav-link"
+    style={{
+      fontFamily: 'var(--font-body)',
+      color: 'var(--text-secondary)',
+      textDecoration: 'none',
+      fontSize: '0.82rem',
+      letterSpacing: '0.06em',
+      textTransform: 'uppercase',
+      fontWeight: 500,
+    }}
+  >
+    {texto}
+  </a>
+))}
     </div>
 
-    <a
-      href="#contacto"
-      className="btn-primary"
-      style={{ fontSize: '0.75rem', padding: '0.65rem 1.25rem' }}
-    >
-      Cotizar ahora
-    </a>
+<a
+  href="/cotizador"
+  className="btn-primary"
+  style={{ fontSize: '0.75rem', padding: '0.65rem 1.25rem' }}
+>
+  Cotizar ahora
+</a>
 
   </div>
 </nav>
