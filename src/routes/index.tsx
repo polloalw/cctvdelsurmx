@@ -192,7 +192,7 @@ const whyItems = [
   { title: 'Integración total', desc: 'CCTV, accesos y red en una sola plataforma unificada con panel único de control.' },
   { title: 'Soporte 24/7', desc: 'Técnicos certificados disponibles todo el año para mantenimiento preventivo y correctivo.' },
   { title: 'Garantía extendida', desc: 'Todos nuestros equipos cuentan con garantía de 3 años y respaldo de marcas líderes.' },
-  { title: 'Certificaciones', desc: 'Instaladores certificados por Hikvision, Dahua, Axis, Cisco y Ubiquiti.' },
+  { title: 'Certificaciones', desc: 'Instaladores certificados por Western Digital, Dahua, ZKTeco, SAXXON y Ubiquiti.' },
   { title: 'Escalabilidad', desc: 'Sistemas diseñados para crecer con su empresa sin reemplazar la infraestructura existente.' },
   { title: 'Sin letra pequeña', desc: 'Propuestas detalladas, precios fijos y cronogramas de entrega claros desde el inicio.' },
 ]
