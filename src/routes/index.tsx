@@ -861,7 +861,47 @@ return (
                 Sistemas integrales de seguridad electrónica para empresas, industrias e instituciones desde 2010.
               </p>
             </div>
+<div style={{
+  display: 'flex',
+  alignItems: 'center',
+  gap: '0.75rem',
+  marginBottom: '1rem'
+}}>
+  <img
+    src="/logocctvdelsur.png"
+    alt="CCTV del Sur"
+    style={{
+      height: '50px',
+      width: 'auto',
+      display: 'block',
+    }}
+  />
 
+  <div>
+    <span
+      style={{
+        fontFamily: 'var(--font-display)',
+        fontSize: '1.4rem',
+        letterSpacing: '0.1em',
+        color: 'var(--text-primary)',
+        display: 'block',
+      }}
+    >
+      CCTV DEL SUR
+    </span>
+
+    <span
+      style={{
+        fontFamily: 'var(--font-mono)',
+        fontSize: '0.6rem',
+        color: 'var(--text-muted)',
+        letterSpacing: '0.1em',
+      }}
+    >
+      SISTEMAS DE SEGURIDAD
+    </span>
+  </div>
+</div>
             {[
               { title: 'Servicios', links: ['CCTV', 'Videovigilancia', 'Accesos biométricos', 'Redes & IT'] },
               { title: 'Empresa', links: ['Nosotros', 'Certificaciones', 'Proyectos', 'Blog técnico'] },
