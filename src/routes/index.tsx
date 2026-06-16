@@ -855,18 +855,7 @@ return (
         <div style={{ maxWidth: '1280px', margin: '0 auto' }}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '3rem', marginBottom: '3rem' }}>
 
-            {/* Brand */}
-            <div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
-                <div style={{ width: '28px', height: '28px', background: 'var(--accent)', clipPath: 'polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 0 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="#07070d"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                </div>
-                <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.4rem', letterSpacing: '0.1em' }}>CCTV DEL SUR</span>
-              </div>
-              <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', lineHeight: 1.7, maxWidth: '260px' }}>
-                Sistemas integrales de seguridad electrónica para empresas, industrias e instituciones desde 2010.
-              </p>
-            </div>
+             
 <div style={{
   display: 'flex',
   alignItems: 'center',
