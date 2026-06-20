@@ -333,7 +333,8 @@ return (
   </a>
 ))}
     </div>
-
+  </div>
+</nav>
       {/* ── HERO ────────────────────────────────────────────────── */}
       <section className="grid-bg scanlines" style={{
         position: 'relative',
