@@ -334,16 +334,6 @@ return (
 ))}
     </div>
 
-<a
-  href="/cotizador"
-  className="btn-primary"
-  style={{ fontSize: '0.75rem', padding: '0.65rem 1.25rem' }}
->
-  Cotizar ahora
-</a>
-
-  </div>
-</nav>
       {/* ── HERO ────────────────────────────────────────────────── */}
       <section className="grid-bg scanlines" style={{
         position: 'relative',
