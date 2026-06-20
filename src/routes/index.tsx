@@ -334,7 +334,16 @@ return (
 ))}
     </div>
 
+<a
+  href="/cotizador"
+  className="btn-primary"
+  style={{ fontSize: '0.75rem', padding: '0.65rem 1.25rem' }}
+>
+  Cotizar ahora
+</a>
 
+  </div>
+</nav>
       {/* ── HERO ────────────────────────────────────────────────── */}
       <section className="grid-bg scanlines" style={{
         position: 'relative',
@@ -386,7 +395,7 @@ return (
 
               {/* Trust badges */}
               <div className="anim d7" style={{ display: 'flex', gap: '1.5rem', marginTop: '3rem', flexWrap: 'wrap' }}>
-                {['Hikvision', 'Dahua', 'Cisco', 'Ubiquiti'].map(brand => (
+                {['ZKTeco', 'Dahua', 'IMOU', 'Ubiquiti'].map(brand => (
                   <div key={brand} style={{
                     fontFamily: 'var(--font-mono)', fontSize: '0.65rem', letterSpacing: '0.15em',
                     color: 'var(--text-muted)', textTransform: 'uppercase', padding: '0.4rem 0.8rem',
